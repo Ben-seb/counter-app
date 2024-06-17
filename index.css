@@ -1,0 +1,62 @@
+body {
+    background-image: url("/images/stars-3.webp");
+    background-size: cover;
+    font-family: "Roboto Mono", BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #d1d0ba;
+}
+
+.container {
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 2px black;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 2px black;
+   
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background-image: url("/images/stars-5.webp");
+    border: 3px solid #591b1b;
+    color: #e6fce8;
+    text-shadow: 0px 0px 1x black;
+    letter-spacing: 2px;
+}
+
+#save-btn {
+    background-image: url("/images/stars-5.webp");
+    color: seashell;
+    border: 3px solid #1b4959;
+    text-shadow: 0px 0px 1px white;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
